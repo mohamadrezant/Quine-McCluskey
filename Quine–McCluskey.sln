@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Quine-McCluskey.Common", "Quine-McCluskey.Common", "{BF839D35-E93E-4BA5-89F9-1C60BD9E6AB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Quine–McCluskey.API", "Quine–McCluskey.API", "{655184BA-00AB-4F93-A9D0-62C98A49D53A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Quine–McCluskey.Application", "Quine–McCluskey.Application", "{2CBEF855-70BF-4BBD-8DA9-4C49457A1EDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Quine–McCluskey.Domain", "Quine–McCluskey.Domain", "{5B025C72-A200-4F7D-8260-4690FC45444B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quine–McCluskey.Domain", "Quine–McCluskey.Domain\Quine–McCluskey.Domain.csproj", "{1656E0F8-B4C2-418C-8F53-F79CF497F224}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quine–McCluskey.Application", "Quine–McCluskey.Application\Quine–McCluskey.Application.csproj", "{27F3E9FD-ABA5-4DFD-95D8-FFEF82B0211B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quine-McCluskey.Common", "Quine-McCluskey.Common\Quine-McCluskey.Common.csproj", "{8A6A390F-92C4-46D3-975B-5AF52C1C08E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quine–McCluskey.API", "Quine–McCluskey.API\Quine–McCluskey.API.csproj", "{F7390BD4-604C-4634-9BA7-83286A4B00DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1656E0F8-B4C2-418C-8F53-F79CF497F224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1656E0F8-B4C2-418C-8F53-F79CF497F224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1656E0F8-B4C2-418C-8F53-F79CF497F224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1656E0F8-B4C2-418C-8F53-F79CF497F224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F3E9FD-ABA5-4DFD-95D8-FFEF82B0211B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F3E9FD-ABA5-4DFD-95D8-FFEF82B0211B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F3E9FD-ABA5-4DFD-95D8-FFEF82B0211B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F3E9FD-ABA5-4DFD-95D8-FFEF82B0211B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A6A390F-92C4-46D3-975B-5AF52C1C08E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A6A390F-92C4-46D3-975B-5AF52C1C08E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A6A390F-92C4-46D3-975B-5AF52C1C08E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A6A390F-92C4-46D3-975B-5AF52C1C08E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7390BD4-604C-4634-9BA7-83286A4B00DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7390BD4-604C-4634-9BA7-83286A4B00DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7390BD4-604C-4634-9BA7-83286A4B00DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7390BD4-604C-4634-9BA7-83286A4B00DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1656E0F8-B4C2-418C-8F53-F79CF497F224} = {5B025C72-A200-4F7D-8260-4690FC45444B}
+		{27F3E9FD-ABA5-4DFD-95D8-FFEF82B0211B} = {2CBEF855-70BF-4BBD-8DA9-4C49457A1EDB}
+		{8A6A390F-92C4-46D3-975B-5AF52C1C08E0} = {BF839D35-E93E-4BA5-89F9-1C60BD9E6AB8}
+		{F7390BD4-604C-4634-9BA7-83286A4B00DC} = {655184BA-00AB-4F93-A9D0-62C98A49D53A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06E5E85E-3EF2-4179-90CE-E9D0645B6699}
+	EndGlobalSection
+EndGlobal
